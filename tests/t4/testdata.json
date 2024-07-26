@@ -1,0 +1,30 @@
+{
+  "delete": [
+    {
+      "data": {
+        "Item1": "/student/3000/course/10",
+        "Item2": "/student/3000/courses"
+      },
+      "result": [
+        21,
+        22
+      ]
+    }
+  ],
+  "codes": [
+    {
+      "data": {
+        "Item1": "/student/3000/course/1",
+        "Item2": "/student/3000/courses"
+      },
+      "result": 404
+    },
+    {
+      "data": {
+        "Item1": "/student/4000/course/11",
+        "Item2": "/student/4000/courses"
+      },
+      "result": 409
+    }
+  ]
+}

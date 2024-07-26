@@ -1,0 +1,30 @@
+{
+  "courses": [
+    {
+      "data": "/student/3000/courses",
+      "result": [
+        21,
+        10,
+        22
+      ]
+    }
+  ],
+  "grades": [
+    {
+      "data": {
+        "Item1": "/student/3000/courses",
+        "Item2": 44
+      },
+      "result": {
+        "Item1": 4,
+        "Item2": "2022-05-05"
+      }
+    }
+  ],
+  "notfound": [
+    {
+      "data": "/student/1/courses",
+      "result": 404
+    }
+  ]  
+}

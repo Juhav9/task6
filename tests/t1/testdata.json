@@ -1,0 +1,26 @@
+{
+  "get": [
+    {
+      "data": "/university",
+      "result": [
+        "Savonia UAS",
+        "UEF",
+        "Aalto"
+      ]
+    }
+  ],
+  "delete": [
+    {
+      "data": "/university/1",
+      "result": 409
+    },
+    {
+      "data": "/university/123456",
+      "result": 404
+    },
+    {
+      "data": "/university/3",
+      "result": 204
+    }
+  ]
+}

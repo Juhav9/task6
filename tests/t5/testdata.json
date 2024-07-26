@@ -1,0 +1,66 @@
+{
+  "put": [
+    {
+      "data": {
+        "Item1": 3000,
+        "Item2": 10,
+        "Item3": 3,
+        "Item4": "2023-04-19",
+        "Item5": false
+      },
+      "result": 204
+    },
+    {
+      "data": {
+        "Item1": 1000,
+        "Item2": 12,
+        "Item3": 5,
+        "Item4": "2023-04-19",
+        "Item5": true
+      },
+      "result": 204
+    }
+  ],
+  "fail": [
+    {
+      "data": {
+        "Item1": 3000,
+        "Item2": 22,
+        "Item3": 6,
+        "Item4": "2023-04-19",
+        "Item5": true
+      },
+      "result": {
+        "Item1": 400,
+        "Item2": null
+      }
+    },
+    {
+      "data": {
+        "Item1": 4000,
+        "Item2": 1,
+        "Item3": 3,
+        "Item4": "2023-04-19",
+        "Item5": true
+      },
+      "result": {
+        "Item1": 404,
+        "Item2": null
+      }
+    },
+    {
+      "data": {
+        "Item1": 1000,
+        "Item2": 12,
+        "Item3": 5,
+        "Item4": "2023-04-19",
+        "Item5": false
+      },
+      "result": {
+        "Item1": 409,
+        "Item2": "Has existing value, will not make changes"
+      }
+    }
+
+  ]
+}
